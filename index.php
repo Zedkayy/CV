@@ -1,211 +1,44 @@
 <!DOCTYPE html>
 <html lang="en-US">
 
-<head>
+<?php include('header.php'); ?>
 
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="description" content="Meet Particle, one of the Best HTML Templates with Modern, Tech & Startup Style. See it live now!">
-	<meta name="author" content="Skilltech Web Design">
-	<meta name="keywords" content="particle, youtube video background, html template, hero youtube video, html themes, html templates, technology html, modern html, theme, template, skilltech web design, creative html, youtube video html theme, skilltechwebdesign.com"/>
-
-	<meta property="og:title" content="This YouTube Video Background Particles HTML Theme will blow your mind!"/>
-	<meta property="og:description" content="Meet Particle, one of the Best HTML Templates with Modern, Tech & Startup Style. See it live now!"/>
-	<meta property="og:image" content="assets/images/facebook-post-img-1200x630-2021.jpg"/>
-	<meta property="og:site_name" content="SkilltechWebDesign.com"/>
-
-	<title>Particle Theme | YouTube Video Background Home</title>
-
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
-
-	<!-- Bootstrap CSS -->
-	<link href="assets/vendor/bootstrap/bootstrap.min.css" rel="stylesheet">
-	<!-- Fonts -->
-	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Play:wght@400;700&family=Source+Sans+Pro:ital,wght@0,300;1,300&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,700;0,900;1,200;1,300;1,400&family=Blinker:wght@200;300;400;600;700;800&display=swap" rel="stylesheet">
-	<!-- Icon Fonts -->
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<link href="assets/fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-	<!-- Animate.css -->
-	<link href="assets/vendor/animate/animate.min.css" rel="stylesheet">
-	<!-- Off Canvas Menu - Default Theme -->
-	<link href="assets/vendor/offcanvas-nav/hc-offcanvas-nav.css" rel="stylesheet" />
-
-	<!-- Particle Theme CSS -->
-	<link href="assets/css/particle-theme.css" rel="stylesheet">
-	<link href="assets/css/particle-colors.css" rel="stylesheet">
-
-	<!-- jQuery -->
-	<script src="assets/vendor/jquery/jquery.min.js"></script>
-
-	<!-- Simple Forms -->
-	<!-- <link rel="stylesheet" href="assets/vendor/simple-forms/css/simple-forms-skilltech-mod.css"> -->
-
-</head>
-
-<body class="pa-homepage">
+<body class="pa-homepage pa-dark">
 
 	<!-- Page Transitions
 	================================================== -->
 	<div class="pa-page-transition pa-page-transition-1 is-active"></div>
 	<div class="pa-overlay" style="position: fixed; top: 0; left: 0; z-index: 10002; width: 100vw; height: 100vh; pointer-events: none; background: #091019;"></div>
 
+
 	<!-- Navigation Menu
 	================================================== -->
 	<a class="pa-mobile-main-logo" href="#"><img alt="" src="assets/images/logo-normal.png"></a>
 
-	<nav id="main-nav" class="pa-menu navbar pa-navbar navbar-expand-lg navbar-dark bg-transparent static-top">
-
-		<!-- Desktop Menu Logo -->
-		<a class="navbar-brand" href="#"><img alt="" src="assets/images/logo-normal.png"></a>
-
-		<!-- The Menu -->
-		<ul class="navbar-nav ml-auto">
-
-			<!-- Mobile Menu Logo (only use if "close" buttons are set to false in JS) -->
-			<li data-nav-custom-content class="custom-content pa-mobile-menu-logo"> 
-				<a class="pa-mobile-navbar-brand" href="#"><img alt="" src="assets/images/logo-mobile.png"></a>
-			</li>
-
-			<!-- Regular Menu Items Start -->
-			<li class="nav-item menu-item-has-children">
-				<a class="nav-link hvr-underline-from-center" href="#">Home</a>
-				<ul class="pa-submenu-ul">
-					<li class="nav-item"><a class="nav-link" href="index.html">Home Light (<em>default</em>)</a></li>
-					<li class="nav-item"><a class="nav-link" href="index-video.html">Home Light Video</a></li>
-					<li class="nav-item"><a class="nav-link active" href="#">Home Light YT Video</a></li>
-					<li class="nav-item"><a class="nav-link" href="dark-index.html">Home Dark</a></li>
-					<li class="nav-item"><a class="nav-link" href="dark-index-video.html">Home Dark Video</a></li>
-					<li class="nav-item"><a class="nav-link" href="dark-index-yt-video.html">Home Dark YT Video</a></li>
-				</ul>
-			</li>
-
-			<li class="nav-item menu-item-has-children">
-				<a class="nav-link hvr-underline-from-center" href="#">Our Work</a>
-				<ul class="pa-submenu-ul">
-					<li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
-					<li class="nav-item"><a class="nav-link" href="portfolio-item.html">Project Inner Page 1</a></li>
-					<li class="nav-item"><a class="nav-link" href="portfolio-item.html">Project Inner Page 2</a></li>
-					<li class="nav-item"><a class="nav-link" href="portfolio-item.html">Project Inner Page 3</a></li>
-					<li class="nav-item"><a class="nav-link" href="portfolio-item.html">Project Inner Page 4</a></li>
-				</ul>
-			</li>
-
-			<li class="nav-item">
-				<a class="nav-link hvr-underline-from-center" href="#about-us">About Us</a>
-			</li>
-
-			<li class="nav-item menu-item-has-children">
-				<a class="nav-link hvr-underline-from-center" href="#">Services</a> 
-				<ul class="pa-submenu-ul">
-					<li class="nav-item"><a class="nav-link" href="#services">All Services</a></li>
-					<li class="nav-item"><a class="nav-link" href="service-item.html">Service Inner Page 1</a></li>
-					<li class="nav-item"><a class="nav-link" href="service-item.html">Service Inner Page 2</a></li>
-					<li class="nav-item"><a class="nav-link" href="service-item.html">Service Inner Page 3</a></li>
-					<li class="nav-item"><a class="nav-link" href="service-item.html">Service Inner Page 4</a></li>
-				</ul>
-			</li>
-
-			<li class="nav-item">
-				<a class="nav-link hvr-underline-from-center" href="#skills">Our Skills</a>
-			</li>
-
-			<li class="nav-item menu-item-has-children">
-				<a class="nav-link hvr-underline-from-center" href="#"><strong>NEW</strong> / Blog</a> 
-				<ul class="pa-submenu-ul">
-					<li class="nav-item menu-item-has-children">
-						<a class="nav-link" href="#">Magazine Style Blog</a> 
-						<ul class="pa-sub-submenu-ul">
-							<li><a class="nav-link" href="blog-magazine-sidebar-right.html">Blog Sidebar Right (<em>default</em>)</a></li>
-							<li><a class="nav-link" href="blog-magazine-sidebar-left.html">Blog Sidebar Left</a></li>
-							<li><a class="nav-link" href="blog-magazine-no-sidebar.html">Blog No Sidebar</a></li>
-							<li><a class="nav-link" href="dark-blog-magazine-sidebar-right.html">Dark Blog Sidebar Right</a></li>
-							<li><a class="nav-link" href="dark-blog-magazine-sidebar-left.html">Dark Blog Sidebar Left</a></li>
-							<li><a class="nav-link" href="dark-blog-magazine-no-sidebar.html">Dark Blog No Sidebar</a></li>
-						</ul>
-					</li>
-					<li class="nav-item menu-item-has-children">
-						<a class="nav-link" href="#">Casual Style Blog</a> 
-						<ul class="pa-sub-submenu-ul">
-							<li><a class="nav-link" href="blog-casual-sidebar-right.html">Blog Sidebar Right</a></li>
-							<li><a class="nav-link" href="blog-casual-sidebar-left.html">Blog Sidebar Left</a></li>
-							<li><a class="nav-link" href="blog-casual-no-sidebar.html">Blog No Sidebar</a></li>
-							<li><a class="nav-link" href="dark-blog-casual-sidebar-right.html">Dark Blog Sidebar Right</a></li>
-							<li><a class="nav-link" href="dark-blog-casual-sidebar-left.html">Dark Blog Sidebar Left</a></li>
-							<li><a class="nav-link" href="dark-blog-casual-no-sidebar.html">Dark Blog No Sidebar</a></li>
-						</ul>
-					</li>
-					<li class="nav-item menu-item-has-children">
-						<a class="nav-link" href="#">Classic Blog</a> 
-						<ul class="pa-sub-submenu-ul">
-							<li><a class="nav-link" href="blog-classic-sidebar-right.html">Blog Sidebar Right</a></li>
-							<li><a class="nav-link" href="blog-classic-sidebar-left.html">Blog Sidebar Left</a></li>
-							<li><a class="nav-link" href="blog-classic-no-sidebar.html">Blog No Sidebar (<em>Big</em>)</a></li>
-							<li><a class="nav-link" href="dark-blog-classic-sidebar-right.html">Dark Blog Sidebar Right</a></li>
-							<li><a class="nav-link" href="dark-blog-classic-sidebar-left.html">Dark Blog Sidebar Left</a></li>
-							<li><a class="nav-link" href="dark-blog-classic-no-sidebar.html">Dark Blog No Sidebar (<em>Big</em>)</a></li>
-						</ul>
-					</li>
-					<li class="nav-item menu-item-has-children">
-						<a class="nav-link" href="#">Post / Single</a> 
-						<ul class="pa-sub-submenu-ul">
-							<li><a class="nav-link" href="single-sidebar-right.html">Post Sidebar Right</a></li>
-							<li><a class="nav-link" href="single-sidebar-left.html">Post Sidebar Left</a></li>
-							<li><a class="nav-link" href="single-no-sidebar.html">Post No Sidebar</a></li>
-							<li><a class="nav-link" href="dark-single-sidebar-right.html">Dark Post Sidebar Right</a></li>
-							<li><a class="nav-link" href="dark-single-sidebar-left.html">Dark Post Sidebar Left</a></li>
-							<li><a class="nav-link" href="dark-single-no-sidebar.html">Dark Post No Sidebar</a></li>
-						</ul>
-					</li>
-				</ul>
-			</li>
-
-			<li class="nav-item">
-				<a class="nav-link hvr-underline-from-center" href="#contact-us">Contact Us</a>
-			</li>
-
-			<!-- Regular Menu Items End -->
-
-			<!-- Mobile Menu Social Icons -->
-			<li data-nav-custom-content class="custom-content pa-menu-socials"> 
-				<div class="pa-social-section">
-					<h1 class="pa-h1-v3 pa-bright fadeInDelay03Duration10"><strong>Connect</strong> with us</h1>
-					<a class="pa-social-icons" href="https://www.facebook.com/SkilltechWebDesign" target="_blank"><span class="fadeInDelay03Duration10"><i class="fa fa-facebook"></i></span></a>
-					<a class="pa-social-icons" href="https://www.facebook.com/SkilltechWebDesign" target="_blank"><span class="fadeInDelay03Duration10"><i class="fa fa-behance"></i></span></a>
-					<a class="pa-social-icons" href="https://www.facebook.com/SkilltechWebDesign" target="_blank"><span class="fadeInDelay03Duration10"><i class="fa fa-dribbble"></i></span></a>
-					<a class="pa-social-icons" href="https://www.facebook.com/SkilltechWebDesign" target="_blank"><span class="fadeInDelay03Duration10"><i class="fa fa-instagram"></i></span></a>
-					<p class="pa-p-v1 pa-white pa-contact-lastline fadeInDelay03Duration10">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-				</div>
-			</li>
-
-		</ul>
-	</nav>
+	
 	<!-- /.pa-menu -->
 
 
 	<!-- Hero Section
 	================================================== -->
-	<section id="top" class="pa-hero pa-centered-section pa-full-height pa-image-back pushable-content bg-transparent">
-		
-		<div class="pa-youtube-container">
-			<div class="pa-pattern-overlay" style="opacity: 37%;"></div>
-			<div class="pa-absolute-fill pa-gradient-back-v1" style="opacity: 0;"></div>
-			<div id="pa-yt-video-background" class="youtube-video mute" data-youtube-video-id="-ZtAnW-AS9I"></div>
-		</div>
+	<section id="top" class="pa-hero pa-centered-section pa-full-height pa-image-back pushable-content" style="background-image: url(assets/images/hero-dark.jpg);">
 
-		<div class="container pa-hero-content text-center position-relative">
-			<div class="row pa-hero-logo">
-				<div class="col-12">
-					<img alt="" src="assets/images/hero-logo.png">
-					<div id="particles-js"></div>
-				</div>
-			</div>
+		<div class="pa-absolute-fill pa-gradient-back-v1" style="opacity: 0;"></div><!-- Increase opacity to overlay hero with a gradient -->
+		<div id="particles-js"></div>
+
+		<div class="container pa-hero-content text-center">
 			<div class="row pa-hero-typed-text">
 				<div class="col-12">
-					<div class="typed-text">
+					<div class="typed-text mega-typed">
 						<span class="animated-text-effect">
 							<!-- <span class="typed-cursor">|</span> -->
 						</span>
 					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12" style="max-width: 976px; margin: 0 auto;">
+					<h2 class="pa-h2-v2-hero-subhead pa-white">fehjgfuyewgd Coolest Modern HTML Template is Here! Welcome to <strong>Particle</strong> by Skilltech Web Design</h2>
 				</div>
 			</div>
 		</div>
@@ -229,7 +62,7 @@
 	<!-- /.pa-cta-v1 -->
 
 
-	<!-- portfolio Section
+	<!-- Portfolio Section
 	================================================== -->
 	<section id="portfolio" class="pa-portfolio">
 		<!-- Portfolio header -->
@@ -249,7 +82,7 @@
 		<div class="container-fluid">
 			<div class="row pa-row-max2560">
 				<div class="col-12 col-sm-6 col-lg-3 p-0">
-					<div class="pa-portfolio-thumb m-0 text-center fadeInDelay00Duration10" style="background-image: url(assets/images/portfolio-thumbnail-01.jpg);">
+					<div class="pa-portfolio-thumb m-0 text-center fadeInDelay00Duration10" style="background-image: url(assets/images/portfolio-thumbnail-01-dark.jpg);">
 						<div class="pa-portfolio-thumb-background-overlay"></div>
 						<div class="pa-portfolio-thumb-deco-1"></div>
 						<div class="pa-portfolio-thumb-deco-2"></div>
@@ -265,7 +98,7 @@
 					</div>
 				</div>
 				<div class="col-12 col-sm-6 col-lg-3 p-0">
-					<div class="pa-portfolio-thumb m-0 text-center fadeInDelay00Duration10" style="background-image: url(assets/images/portfolio-thumbnail-02.jpg);">
+					<div class="pa-portfolio-thumb m-0 text-center fadeInDelay00Duration10" style="background-image: url(assets/images/portfolio-thumbnail-02-dark.jpg);">
 						<div class="pa-portfolio-thumb-background-overlay"></div>
 						<div class="pa-portfolio-thumb-deco-1"></div>
 						<div class="pa-portfolio-thumb-deco-2"></div>
@@ -281,7 +114,7 @@
 					</div>
 				</div>
 				<div class="col-12 col-sm-6 col-lg-3 p-0">
-					<div class="pa-portfolio-thumb m-0 text-center fadeInDelay00Duration10" style="background-image: url(assets/images/portfolio-thumbnail-03.jpg);">
+					<div class="pa-portfolio-thumb m-0 text-center fadeInDelay00Duration10" style="background-image: url(assets/images/portfolio-thumbnail-03-dark.jpg);">
 						<div class="pa-portfolio-thumb-background-overlay"></div>
 						<div class="pa-portfolio-thumb-deco-1"></div>
 						<div class="pa-portfolio-thumb-deco-2"></div>
@@ -297,7 +130,7 @@
 					</div>
 				</div>
 				<div class="col-12 col-sm-6 col-lg-3 p-0">
-					<div class="pa-portfolio-thumb m-0 text-center fadeInDelay00Duration10" style="background-image: url(assets/images/portfolio-thumbnail-04.jpg);">
+					<div class="pa-portfolio-thumb m-0 text-center fadeInDelay00Duration10" style="background-image: url(assets/images/portfolio-thumbnail-04-dark.jpg);">
 						<div class="pa-portfolio-thumb-background-overlay"></div>
 						<div class="pa-portfolio-thumb-deco-1"></div>
 						<div class="pa-portfolio-thumb-deco-2"></div>
@@ -320,15 +153,15 @@
 
 	<!-- About Us Section
 	================================================== -->
-	<section id="about-us" class="pa-about-us pa-standard-section pa-bright text-center">
+	<section id="about-us" class="pa-about-us pa-standard-section text-center pa-dark">
 
 		<div class="container">
 			<!-- Section Header -->
 			<div class="row">
 				<div class="col-12 col-xl-10 offset-xl-1">
 
-					<h1 class="pa-h1-v2 pa-dark fadeInDelay00Duration10"><strong>About</strong> Particle Company</h1>
-					<p class="pa-p-v1 pa-dark fadeInDelay03Duration10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris.</p>
+					<h1 class="pa-h1-v2 pa-bright fadeInDelay00Duration10"><strong>About</strong> Particle Company</h1>
+					<p class="pa-p-v1 pa-bright fadeInDelay03Duration10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris.</p>
 				
 				</div>
 			</div>
@@ -337,15 +170,15 @@
 				<ul class="pa-icon-list-horizontal-dark">
 					<li>
 						<span class="pa-icon-list-icon fadeInDelay03Duration10"><i class="material-icons">beenhere</i></span>
-						<p class="pa-icon-list-text pa-p-v1 pa-dark fadeInDelay03Duration10">Super fast & reliable</p>
+						<p class="pa-icon-list-text pa-p-v1 pa-bright fadeInDelay03Duration10">Super fast & reliable</p>
 					</li>
 					<li>
 						<span class="pa-icon-list-icon fadeInDelay06Duration10"><i class="material-icons">comment</i></span>
-						<p class="pa-icon-list-text pa-p-v1 pa-dark fadeInDelay06Duration10">24 Hour Support</p>
+						<p class="pa-icon-list-text pa-p-v1 pa-bright fadeInDelay06Duration10">24 Hour Support</p>
 					</li>
 					<li>
 						<span class="pa-icon-list-icon fadeInDelay10Duration10"><i class="material-icons">insert_chart</i></span>
-						<p class="pa-icon-list-text pa-p-v1 pa-dark fadeInDelay10Duration10">We Get the Results</p>
+						<p class="pa-icon-list-text pa-p-v1 pa-bright fadeInDelay10Duration10">We Get the Results</p>
 					</li>
 				</ul>
 			</div>
@@ -399,7 +232,7 @@
 
 	<!-- Services (What We Do) Section
 	================================================== -->
-	<section id="services" class="pa-what-we-do pa-standard-section pa-dark text-center">
+	<section id="services" class="pa-what-we-do pa-standard-section text-center">
 
 		<div class="container">
 			<!-- Section Header -->
@@ -502,8 +335,8 @@
 			<!-- Section Header -->
 			<div class="row">
 				<div class="col-12 col-xl-10 offset-xl-1 text-center">
-					<h5 class="pa-h1-v3 pa-dark pt-4 pb-1 mb-4 fadeInDelay03Duration10">Let <strong>Our Skills</strong> speak for Us</h5>
-					<p class="pa-p-v1 pa-dark fadeInDelay03Duration10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+					<h5 class="pa-h1-v3 pa-bright pt-4 pb-1 mb-4 fadeInDelay03Duration10">Let <strong>Our Skills</strong> speak for Us</h5>
+					<p class="pa-p-v1 pa-bright fadeInDelay03Duration10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
 				</div>
 			</div>
 
@@ -625,6 +458,7 @@
 		</div>
 
 	</section>
+	<!-- /.pa-menu -->
 
 
 	<!-- Footer
@@ -669,8 +503,7 @@
 
 	<!-- Theme Scripts and Inits -->
 	<script src="assets/js/particle-theme.js"></script>
-	<script src="assets/js/youtube-video.js"></script>
-	<script src="assets/js/page-home.js"></script>
+	<script src="assets/js/page-home-dark.js"></script>
 
 </body>
 
